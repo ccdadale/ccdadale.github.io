@@ -1,6 +1,6 @@
 ---
-layout:post
-title: static 和 final 的作用
+layout: post
+title: "static 和 final 的作用"
 date: 2016-09-12 17:47:00
 categories:Java知识
 tags: final static 面试
