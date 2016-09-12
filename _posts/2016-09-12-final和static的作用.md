@@ -2,9 +2,10 @@
 layout: post
 title: "static 和 final 的作用"
 date: 2016-09-12 17:47:00
-categories:Java知识
+categories: Java知识
 tags: final static 面试
 author: CaiBoWei
+
 ---
 
 
@@ -99,10 +100,10 @@ hello
 1.  final类
      final类不能被继承，因此final类的成员方法没有机会被覆盖，默认都是final的。在设计类时候，如果这个类不需要有子类，类的实现细节不允许改变，并且确信这个类不会载被扩展，那么就设计为final类。
 2.  final方法
-     如果一个类不允许其子类覆盖某个方法，则可以把这个方法声明为final方法。
-         使用final方法的原因有二：
-         第一、把方法锁定，防止任何继承类修改它的意义和实现。
-         第二、高效。编译器在遇到调用final方法时候会转入内嵌机制，大大提高执行效率。
+      如果一个类不允许其子类覆盖某个方法，则可以把这个方法声明为final方法。
+          使用final方法的原因有二：
+          第一、把方法锁定，防止任何继承类修改它的意义和实现。
+          第二、高效。编译器在遇到调用final方法时候会转入内嵌机制，大大提高执行效率。
 
 
     public class Test1 { 
@@ -202,7 +203,7 @@ hello
     }
 
 4.  final参数
-     当函数参数为final类型时，你可以读取使用该参数，但是无法改变该参数的值。
+      当函数参数为final类型时，你可以读取使用该参数，但是无法改变该参数的值。
 
 
     public class Test4 { 
