@@ -7,7 +7,8 @@ tags: final static 面试
 author: CaiBoWei
 ---
 
-[TOC]
+* content
+{:toc}
 
 > static和final的作用
 >
